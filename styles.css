@@ -13,10 +13,12 @@ body{
        border:dashed 1px red;
      }
 .logo {
-  display:inline-block;
-    border:dashed 1px red;
+  position: relative;
+  display: inline-block;
+    border: dashed 1px red;
      padding: 40px 0;
-      font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+     padding-left: 44 px;
+         font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   }
   .logo__circle {
   position: absolute;
