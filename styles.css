@@ -1,17 +1,14 @@
 body{
   margin: 0;
-    border: dashed 1px red;
-  }
+}
 .wrapper {
   margin: auto;
     width: 80%;
-      border: dashed 1px red;
-    }
+   }
 .header {
   display: flex;
     justify-content: space-between;
-       border: dashed 1px red;
-     }
+  }
 .logo {
   position: relative;
   padding: 40px 0;
@@ -39,12 +36,10 @@ body{
 .menu {
   display: flex;
     align-items: center;
-      border: dashed 1px red;
-}
+ }
 .menu__item {
   padding: 0 13px;
-     border: dashed 1px red;
-}
+ }
 .menu__item :last-child {
   margin-right: 0;
 }
@@ -73,7 +68,4 @@ body{
 .menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
    width: 100%;
-}
-.main-section {
-  border: dashed 1px red;
 }
