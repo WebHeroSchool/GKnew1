@@ -4,11 +4,8 @@ body {
 	.wrapper {
 	  margin: 0 auto;
 	   width: 79.5%;
-	    font-family: Roboto;
-	  }
-
-
-	.header {
+    }
+	 	.header {
     display: flex;
 	   padding: 40px 0px;
 	    justify-content: space-between;
