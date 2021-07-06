@@ -62,8 +62,11 @@ body {
 	     width: 100%;
 	      height: 3px;
 	       background: #0056EC;
-
 	}
+	.main__item-text_line {
+		text-decoration: none;
+		border-bottom: 3px solid blue;
+		}
 	.menu__item:after {
 	  position: absolute;
 	   display: block;
