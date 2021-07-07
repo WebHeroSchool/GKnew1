@@ -15,7 +15,7 @@ body {
    position: relative;
     padding: 0px 0;
      padding-left: 44px;
-      font: bold 24px/31px pt_serif-bold, arial, helvetica, sans-serif;
+      font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
   }
 .logo__circle {
   position: absolute;
@@ -38,13 +38,13 @@ body {
 	.menu {
 	  display: flex;
 	   align-items: center;
-
+		 margin-top: 5px;
 	}
 	.menu__item {
 	  position: relative;
-	   margin-right: 24px;
+	   margin-right: 26px;
 	    left: 0;
-	     font: bold 18px/21px pt_serifbold, arial, helvetica, sans-serif;
+	     font: bold 18px/21px Roboto, arial, helvetica, sans-serif;
 	      color: #000;
 	       text-decoration: none;
 	}
@@ -72,7 +72,6 @@ body {
 	      background: #0056EC;
 	       opacity: 0;
 	        transition: opacity .5s;
-
 	}
 	.menu__item:hover {
 	  opacity: 0.5;
@@ -96,11 +95,8 @@ body {
 	.main__subtitle {
 	  margin: 0;
 	   margin-top: 18px;
-	    margin-bottom: 100px
 	     width: 66%;
-	      font-size: 22px;
-	       line-height: 26px;
-	        font: 400 22px/24px Roboto, arial, helvetica, sans-serif;
+	      font: 400 22px/24px Roboto, arial, helvetica, sans-serif;
 	}
 	.main__title-text_highlight {
 	    background: #ECF3FF;
@@ -118,3 +114,10 @@ body {
   .main__button:hover{
     opacity: 0.5;
     }
+		.image-content {
+    width: 32px;
+    height: 8px;
+    margin: 0 auto;
+    margin-top: 134px;
+    background: center no-repeat url(img/group16.svg);
+  }
